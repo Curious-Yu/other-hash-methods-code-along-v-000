@@ -10,7 +10,5 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
-  groceries.each do |key, data|
-    key
-  end
+  groceries.keys
 end
